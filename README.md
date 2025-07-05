@@ -5,8 +5,20 @@ It uses a RAG (Retrieval Augmented Generation) pipeline powered by Ollama + Fast
 
 ---
 
+✅ backend (FastAPI + retrieval)
+✅ frontend (Streamlit)
+✅ ollama (LLM server)
+…all in one repo, running via docker-compose.
 
-##  Getting Started
+###  Usig docker-compose
+
+```bash
+docker-compose up --build
+• Backend: http://localhost:8000
+• Frontend: http://localhost:8501
+• Ollama: http://localhost:11434
+
+---
 
 ###  Local (without Docker)
 
@@ -29,16 +41,6 @@ cd frontend
 streamlit run app.py
 
 Note: must have ollama installed and a gemma model
-
----
-
-###  Usig docker-compose
-
-```bash
-docker-compose up --build
-• Backend: http://localhost:8000
-• Frontend: http://localhost:8501
-• Ollama: http://localhost:11434
 
 ---
 
