@@ -1,18 +1,2 @@
-#  Core libraries
-fastapi
-uvicorn
-httpx
-requests
-
-#  RAG & embeddings
-langchain-chroma
-langchain-community
-langchain-huggingface
-sentence-transformers
-chromadb
-
-#  Frontend
-streamlit
-
-#  Optional: view Chroma DB
-datasette
+langchain_community
+langchain_huggingface
